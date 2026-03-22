@@ -1,0 +1,18 @@
+train: E:/true_world/yolo_dataset/bad_weather/images/
+val: E:/true_world/yolo_dataset/bad_weather/images/
+
+# 类别总数
+nc: 10
+
+# 类别名称 (必须和刚才 Python 脚本里的顺序一模一样)
+names: 
+  0: road_curb
+  1: inner_curb
+  2: pedestrian
+  3: pole
+  4: motor
+  5: car
+  6: zebra_crossing
+  7: bus_station
+  8: trash_can
+  9: tree
